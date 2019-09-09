@@ -1,61 +1,61 @@
 var friends + [
   {
     name: "Yon Gonzalez",
-    photo: "",
+    photo: "https://images.app.goo.gl/KDpPKL8vMULPsxoM8",
     scores: [5,3,2,5,4,1,2,5,3,4]
   }
   
    {
     name: "Mario Casas",
-    photo: "",
+    photo: "https://images.app.goo.gl/rLhkAa176EkZBtNT9",
     scores: [4,5,1,3,5,2,4,5,3,4]
   }
   
    {
     name: "Carla Morrison",
-    photo: "",
+    photo: "https://images.app.goo.gl/AzuQZyQFsZonk2yS7",
     scores: [3,1,5,4,2,3,4,1,5,2]
   }
 
  {
-    name: "Henry Cavill",
-    photo: "",
+    name: "Macarena Garcia",
+    photo: "https://images.app.goo.gl/ecHhazdL1NZPK1kNA",
     scores: [5,3,2,4,5,4,2,5,3,4]
   }
 
  {
     name: "Clara Lago",
-    photo: "",
+    photo: "https://images.app.goo.gl/sqho9EGMnrKcD9rZ8",
     scores: [4,3,5,3,4,1,2,5,3,4]
   }
  
    {
     name: "Aitor Luna",
-    photo: "",
+    photo: "https://images.app.goo.gl/GtAwPmAtYw49TGBW8",
     scores: [5,5,5,4,2,5,2,5,3,4]
   }
   
    {
     name: "Nadia Santiago",
-    photo: "",
+    photo: "https://images.app.goo.gl/zLcHkAJTb2thZCy19",
     scores: [4,5,1,3,5,2,3,2,1,5]
   }
   
    {
     name: "Blanca Suarez",
-    photo: "",
+    photo: "https://images.app.goo.gl/rYMQowLf71Mrc9Ri7",
     scores: [3,5,3,1,4,3,4,1,5,2]
   }
 
  {
-    name: "Kit Harrington",
-    photo: "",
+    name: "Alex Garcia",
+    photo: "https://images.app.goo.gl/v26DoZG2eDFk5PGr8",
     scores: [5,3,2,4,5,2,4,5,1,1]
   }
 
  {
     name: "Daniel Lundh",
-    photo: "",
+    photo: "https://images.app.goo.gl/qogDNiFTpocTwAo49",
     scores: [5,4,3,2,1,1,2,5,3,4]
   }
 ];
