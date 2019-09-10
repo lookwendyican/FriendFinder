@@ -26,19 +26,19 @@ var friends + [
  {
     name: "Clara Lago",
     photo: "https://images.app.goo.gl/sqho9EGMnrKcD9rZ8",
-    scores: [4,3,5,3,4,1,2,5,3,4]
+    scores: [4,5,5,3,4,3,2,5,5,4]
   }
  
    {
     name: "Aitor Luna",
     photo: "https://images.app.goo.gl/GtAwPmAtYw49TGBW8",
-    scores: [5,5,5,4,2,5,2,5,3,4]
+    scores: [5,2,5,4,2,2,2,5,2,4]
   }
   
    {
     name: "Nadia Santiago",
     photo: "https://images.app.goo.gl/zLcHkAJTb2thZCy19",
-    scores: [4,5,1,3,5,2,3,2,1,5]
+    scores: [3,2,1,3,2,2,3,2,1,2]
   }
   
    {
@@ -50,13 +50,13 @@ var friends + [
  {
     name: "Alex Garcia",
     photo: "https://images.app.goo.gl/v26DoZG2eDFk5PGr8",
-    scores: [5,3,2,4,5,2,4,5,1,1]
+    scores: [5,1,4,1,5,1,4,1,5,1]
   }
 
  {
     name: "Daniel Lundh",
     photo: "https://images.app.goo.gl/qogDNiFTpocTwAo49",
-    scores: [5,4,3,2,1,1,2,5,3,4]
+    scores: [3,1,3,2,1,1,2,1,3,2]
   }
 ];
 
