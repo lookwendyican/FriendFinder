@@ -1,31 +1,280 @@
 
-https://github.com/jinana3/FriendFinder
+<!-- https://github.com/jinana3/FriendFinder
 
 https://github.com/jthomasparker/FriendFinder
 
 https://github.com/SteveSonoa/FriendFinder/blob/master/app/public/survey.html
 
-https://github.com/kat3ng/friend_finder
+https://github.com/kat3ng/friend_finder -->
+
+
+<html>
+
+<head>
+    <title>Friend Finder Survey</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+    </script>
+</head>
+
+<section class="title">
+    <div class="row">
+        <div class="col s12">
+            <div class="card-panel white">
+                <h3>Survey Questions</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- First panel, name and photo link -->
+<section class="container section-name">
+    <div class="row">
+        <div class="col s12">
+            <div class="card-panel white">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel teal">
+                            <span class="white-text">Please enter your full name and a link to your picture below:
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- NAME -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">person_pin</i>
+                        <input type="text" id="autocomplete-input" class="autocomplete">
+                        <label for="autocomplete-input">Full Name</label>
+                    </div>
+                </div>
+                <!-- Photo Link -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">camera_front</i>
+                        <input type="text" id="autocomplete-input" class="autocomplete">
+                        <label for="autocomplete-input">Link to Picture</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<!-- Continer for questions -->
+<section class="container section-name">
+    <div class="row">
+        <div class="col s12">
+            <div class="card-panel white">
+                <!-- Panel for Your Personality sub-title -->
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel teal">
+                            <span class="white-text">Your Personality
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 1 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    1:</span> I like to enjoy a good meal and a bottle
+                                of wine with my bff.
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    2:</span> I like to party and get thrashed with my friends.
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Question 3 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    3:</span> I enjoy nature (hiking, snorkeling, ect…).
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    4:</span> I enjoy traveling around the world and learning about different cultures
+                                and different foods.
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 5 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    5:</span> I enjoy Netflix and chill.
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 6 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    6:</span> I enjoy experimenting with different recipes in the kitchen.
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 7 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    7:</span> I could eat at fast food chains every single day.
+
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Question 8 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    8:</span> I enjoy watching sports (live games and TV)."
+
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 9 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    9:</span> I enjoy working out (running, heavy weights, CrossFit).
+
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 10 -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
+                                    10:</span> I enjoy mindful practices and lighter workouts (yoga, pilates, barre.
+
+                            </p>
+
+                            <p class="range-field">
+                                <input type="range" id="answers" min="1" max="5" />
+                            </p>
+                            <label>Slide to Answer (1=Least 5=Most)</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Submit Button -->
+                <div class="row" id="addPanelQuestions">
+                    <div class="col s12">
+                        <div class="card-panel pink">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Close of questions div -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="app.js"> </script>
 
 
 
-I like to enjoy a good meal and a bottle of wine with my bff.
-I like to party and get thrashed with my friends. 
+</body>
 
-I enjoy nature (hiking, snorkeling, ect…). 
-
-I enjoy traveling around the world and learning about different cultures and different foods.   
-
-I enjoy Netflix and chill.
-
-I enjoy experimenting with different recipes in the kitchen.
-
-I could eat at fast food chains every single day.
-
-I enjoy watching sports (live games and TV).
-
-I enjoy working out (running, heavy weights, CrossFit). 
-
-I enjoy mindful practices and lighter workouts (yoga, pilates, barre).  
-
-
+</html>
