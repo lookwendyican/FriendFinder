@@ -6,16 +6,20 @@
     <meta name="viewport" content="width = device-width, initial-scale = 1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+
+     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+
+   
     </script>
 </head>
 
 <section class="title">
     <div class="row">
         <div class="col s12">
-            <div class="card-panel white">
-                <h3>Survey Questions</h3>
+            <div class="card-panel cyan darken-1">
+                <h3 class="center main-title">Survey Questions</h3>
             </div>
         </div>
     </div>
@@ -27,8 +31,8 @@
             <div class="card-panel white">
                 <div class="row">
                     <div class="col s12">
-                        <div class="card-panel teal">
-                            <span class="white-text">Please enter your full name and a link to your picture below:
+                        <div class="card-panel cyan darken-1">
+                            <span class="white-text title">Please enter your full name and a link to your picture below:
                             </span>
                         </div>
                     </div>
@@ -40,7 +44,7 @@
                     <div class="input-field col s12">
                         <i class="material-icons prefix">person_pin</i>
                         <input type="text" id="userName" class="autocomplete">
-                        <label for="autocomplete-input">Full Name</label>
+                        <label for="autocomplete-input letters">Full Name</label>
                     </div>
                 </div>
                 <!-- Photo Link -->
@@ -48,7 +52,7 @@
                     <div class="input-field col s12">
                         <i class="material-icons prefix">camera_front</i>
                         <input type="text" id="userPic" class="autocomplete">
-                        <label for="autocomplete-input">Link to Picture</label>
+                        <label for="autocomplete-input letters">Link to Picture</label>
                     </div>
                 </div>
             </div>
@@ -64,8 +68,8 @@
                 <!-- Panel for Your Personality sub-title -->
                 <div class="row">
                     <div class="col s12">
-                        <div class="card-panel teal">
-                            <span class="white-text">Your Personality
+                        <div class="card-panel cyan darken-1">
+                            <span class="white-text title">Your Personality
                             </span>
                         </div>
                     </div>
@@ -74,9 +78,8 @@
                 <!-- Question 1 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    1:</span> I like to enjoy a good meal and a bottle
+                        <div class="card-panel pink lighten-1">
+                            <p class="questionAsked">1: I like to enjoy a good meal and a bottle
                                 of wine with my bff.
 
                             </p>
@@ -84,7 +87,7 @@
                             <p class="range-field">
                                 <input type="range" id="answers1" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -93,15 +96,15 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    2:</span> I like to party and get thrashed with my friends.
+                            <p class="questionAsked ">
+                                    2:  I like to party and get thrashed with my friends.
 
                             </p>
 
                             <p class="range-field">
                                 <input type="range" id="answers2" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -111,15 +114,14 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    3:</span> I enjoy nature (hiking, snorkeling, ect…).
+                            <p class="questionAsked ">3:  I enjoy nature (hiking, snorkeling, ect…).
 
                             </p>
 
                             <p class="range-field">
                                 <input type="range" id="answers3" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -128,8 +130,7 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    4:</span> I enjoy traveling around the world and learning about different cultures
+                            <p class="questionAsked ">4:  I enjoy traveling around the world and learning about different cultures
                                 and different foods.
 
                             </p>
@@ -137,7 +138,7 @@
                             <p class="range-field">
                                 <input type="range" id="answers4" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -145,15 +146,14 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    5:</span> I enjoy Netflix and chill.
+                            <p class="questionAsked ">5:  I enjoy Netflix and chill.
 
                             </p>
 
                             <p class="range-field">
                                 <input type="range" id="answers5" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -161,15 +161,14 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    6:</span> I enjoy experimenting with different recipes in the kitchen.
+                            <p class="questionAsked ">6: I enjoy experimenting with different recipes in the kitchen.
 
                             </p>
 
                             <p class="range-field">
                                 <input type="range" id="answers6" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -178,8 +177,7 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    7:</span> I could eat at fast food chains every single day.
+                            <p class="questionAsked "> 7:  I could eat at fast food chains every single day.
 
 
                             </p>
@@ -187,7 +185,7 @@
                             <p class="range-field">
                                 <input type="range" id="answers7" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -197,8 +195,7 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    8:</span> I enjoy watching sports (live games and TV)."
+                            <p class="questionAsked ">8:  I enjoy watching sports (live games and TV)."
 
 
                             </p>
@@ -206,7 +203,7 @@
                             <p class="range-field">
                                 <input type="range" id="answers8" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -215,8 +212,7 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    9:</span> I enjoy working out (running, heavy weights, CrossFit).
+                            <p class="questionAsked "> 9:  I enjoy working out (running, heavy weights, CrossFit).
 
 
                             </p>
@@ -224,7 +220,7 @@
                             <p class="range-field">
                                 <input type="range" id="answers9" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -232,15 +228,14 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <p class="questionAsked black-text"><span class="white-text" id="questions">Question
-                                    10:</span> I enjoy mindful practices and lighter workouts (yoga, pilates, barre.
+                            <p class="questionAsked "> 10:  I enjoy mindful practices and lighter workouts (yoga, pilates, barre.
 
                             </p>
 
                             <p class="range-field">
                                 <input type="range" id="answers10" min="1" max="5" />
                             </p>
-                            <label>Slide to Answer (1=Least 5=Most)</label>
+                           
                         </div>
                     </div>
                 </div>
@@ -248,7 +243,7 @@
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
                         <div class="card-panel pink">
-                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <button class="btn waves-effect waves-light center" type="submit" name="action">Submit
                                 <i class="material-icons right">send</i>
                             </button>
                         </div>
