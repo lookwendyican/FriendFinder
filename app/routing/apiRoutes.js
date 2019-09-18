@@ -1,17 +1,24 @@
+//The apiRoutes file includes two basic routes for app.get and app.post function which used for displaying a JSON data and incoming survey results off al possible friends. 
+
+
+//The app.post  is used to handle the compatability logic.
+
+
 // Dependencies
 var friends = require('../data/friends.js');
 
 // Export the function
 module.exports = function(app) {
 
-    // Sets the get for the api/friends route
+    // The app.get requests handles when a user visits the page
     app.get('/api/friends', function(req, res) {
         res.json(friends);
     });
 
-    // Set the post for the api/friends route
+    // The app.post request handles when a user subnits a form and thus submits data to the server. 
+    
     app.post('/api/friends', function(req, res) {
-    		// Set variables only needed for the post
+    		// Set variables only needed for the post and loops through all matches
         var difference = 40;
         var matchName = '';
         var matchPhoto = '';
