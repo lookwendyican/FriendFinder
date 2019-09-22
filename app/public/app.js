@@ -2,7 +2,6 @@
 
 $(document).ready(function () {
 
-
     var newUser = [];
     //Capture the form input
     $('#submit').on('click', function (event) {
