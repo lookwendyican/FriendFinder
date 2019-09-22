@@ -25,7 +25,7 @@ var friends = [
 
  {
     name: "Clara Lago",
-    photo: "https://images.app.goo.gl/sqho9EGMnrKcD9rZ8",
+    photo: "https://a6cinema.com/wp-content/uploads/2015/07/ClaraLago_press_27_Woman-480x600.jpg",
     scores: [4,5,5,3,4,3,2,5,5,4]
   },
  

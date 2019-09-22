@@ -2,8 +2,10 @@
 
 $(document).ready(function () {
 
+
+    var newUser = [];
     //Capture the form input
-    $('#submit').on('click', function(event) {
+    $('#submit').on('click', function (event) {
         event.preventDefault();
         console.log("submitted");
         // Create an object for the user's data
@@ -23,17 +25,18 @@ $(document).ready(function () {
                 $("#answers10").val()
             ]
         }; //End of user data
-    console.log(userData);
+        console.log(userData);
+
+
+        //AJAX to post data to the friends API
+        $.post('/api/friends', userData, function (data) {
+            console.log(data);
+                 // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                 $("#match-name").text(data.name);
+                 $("#match-img").attr("src", data.photo);
+                 // Show the modal with the best match
+                 $("#results-modal").modal("toggle");
+        });
     }); //End of submmit function
-
-    //AJAX to post data to the friends API
-    // $.post('/api/friends', userData, function(data) {
-    //     console.log(data);
-    //      // Grab the result from the AJAX post so that the best match's name and photo are displayed.
-    //      $("#match-name").text(data.name);
-    //      $("#match-img").attr("src", data.photo);
-    //      // Show the modal with the best match
-    //      $("#results-modal").modal("toggle");
-    //  });
-
 });//End of document ready
+
