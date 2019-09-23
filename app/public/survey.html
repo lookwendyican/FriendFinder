@@ -5,7 +5,7 @@
     <meta name="viewport" content="width = device-width, initial-scale = 1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-
+    <!-- Linking CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Linking jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -20,8 +20,8 @@
 <section class="title">
     <div class="row">
         <div class="col s12">
-            <div class="card-panel teal">
-                <h3 class="center main-title">Survey Questions</h3>
+            <div class="card-panel pan-color">
+                <h3 class="center white-text">Survey Questions</h3>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
             <div class="card-panel white">
                 <div class="row">
                     <div class="col s12">
-                        <div class="card-panel teal">
+                        <div class="card-panel pan-color">
                             <span class="white-text title">Please enter your full name and a link to your picture below:
                             </span>
                         </div>
@@ -70,7 +70,7 @@
                 <!-- Panel for Your Personality sub-title -->
                 <div class="row">
                     <div class="col s12">
-                        <div class="card-panel cyan darken-1">
+                        <div class="card-panel pan-color">
                             <span class="white-text title">Your Personality
                             </span>
                         </div>
@@ -80,7 +80,7 @@
                 <!-- Question 1 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel orange accent-3">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked">1: I like to enjoy a good meal and a bottle
                                 of wine with my bff.
 
@@ -97,7 +97,7 @@
                 <!-- Question 2 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked ">
                                 2: I like to party and get thrashed with my friends.
 
@@ -115,7 +115,7 @@
                 <!-- Question 3 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked ">3: I enjoy nature (hiking, snorkeling, ect…).
 
                             </p>
@@ -131,7 +131,7 @@
                 <!-- Question 4 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked ">4: I enjoy traveling around the world and learning about different
                                 cultures
                                 and different foods.
@@ -148,7 +148,7 @@
                 <!-- Question 5 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked ">5: I enjoy Netflix and chill.
 
                             </p>
@@ -163,7 +163,7 @@
                 <!-- Question 6 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked ">6: I enjoy experimenting with different recipes in the kitchen.
 
                             </p>
@@ -179,7 +179,7 @@
                 <!-- Question 7 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked "> 7: I could eat at fast food chains every single day.
 
 
@@ -197,7 +197,7 @@
                 <!-- Question 8 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked ">8: I enjoy watching sports (live games and TV)."
 
 
@@ -214,7 +214,7 @@
                 <!-- Question 9 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked "> 9: I enjoy working out (running, heavy weights, CrossFit).
 
 
@@ -230,7 +230,7 @@
                 <!-- Question 10 -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-                        <div class="card-panel pink">
+                        <div class="card-panel deep-purple">
                             <p class="questionAsked "> 10: I enjoy mindful practices and lighter workouts (yoga,
                                 pilates, barre.
 
@@ -246,11 +246,12 @@
                 <!-- Submit Button -->
                 <div class="row" id="addPanelQuestions">
                     <div class="col s12">
-
-                        <button class="btn-large waves-effect waves-light pink center modal-trigger"
+                        <p class="center-align">
+                            <button class="btn-large waves-effect waves-light  center-align modal-trigger"
                             href="#results-modal" id="submit" type="submit" name="action">Submit
                             <i class="material-icons right">send</i>
-                        </button>
+                        </button></p>
+                        
 
                     </div>
                 </div>
@@ -282,7 +283,9 @@
 <script type="text/javascript" src="app.js"> </script>
 <script>
     $(document).ready(function () {
-        $('.modal').modal();
+        $('.modal').togglemodal;
+        // $('#results-modal').on('click', function() {
+      //});
     });
 
 </script>

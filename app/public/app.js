@@ -34,7 +34,7 @@ $(document).ready(function () {
                  $("#match-name").text(data.name);
                  $("#match-img").attr("src", data.photo);
                  // Show the modal with the best match
-                 $("#results-modal").modal("toggle");
+                 $("#results-modal").togglemodal;
         });
     }); //End of submmit function
 });//End of document ready

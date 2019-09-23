@@ -1,6 +1,7 @@
 body {
     /* background-image: url("img/morocco-blue.png"); */
-    background-color: peachpuff;
+    background-color: #c1c8e4;
+    color: #0e286b;
 
 }
 
@@ -8,11 +9,16 @@ body {
     font-size: 25px;
 }
 
+.pan-color {
+    background-color: #0e286b;
+}
+
 #questions  {
     font-size: 20px !important;
 }
 .questionAsked {
-    color: midnightblue;
+    /* color: rgb(201, 201, 235); */
+    color: #c1c8e4;
     font-size: 28px !important;
 }
 .main-title {
@@ -20,5 +26,36 @@ body {
     
 }
 
+.survey-btn {
+    background-color: #8860d0;
+}
 
+/* .range-field {
+    size: 3em;
+} */
 
+input[type=range]::-webkit-slider-runnable-track {
+     width: 300px;
+     height: 5px;
+     border: none;
+     border-radius: 3px;
+    
+    }
+    
+
+    input[type=range]::-webkit-slider-thumb {
+         -webkit-appearance: none;
+         border: none;
+         height: 25px;
+         width: 25px;
+         border-radius: 510%;
+         background: midnightblue;
+         border: 2px solid #c1c8e4;
+         margin-top: -5px;
+         cursor: pointer;
+        }
+        
+#submit {
+    background-color: midnightblue;
+    font-size: 20px !important;
+} 
