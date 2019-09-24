@@ -1,6 +1,8 @@
 
 
 $(document).ready(function () {
+    $('.modal').toggle();
+
 
     var newUser = [];
     //Capture the form input
@@ -34,7 +36,7 @@ $(document).ready(function () {
                  $("#match-name").text(data.name);
                  $("#match-img").attr("src", data.photo);
                  // Show the modal with the best match
-                 $("#results-modal").togglemodal;
+                 $("#results-modal").modal;
         });
     }); //End of submmit function
 });//End of document ready

@@ -22,9 +22,17 @@ body {
     font-size: 28px !important;
 }
 .main-title {
-    color: midnightblue;
-    
+    color: midnightblue;  
 }
+.close-button
+{
+    background-color: midnightblue; 
+}
+
+#match-img {
+    max-height: 300px;
+}
+
 
 .survey-btn {
     background-color: #8860d0;
