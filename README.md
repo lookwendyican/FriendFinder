@@ -18,7 +18,7 @@ JSON
 
 ![Landing](app/public/img/Landing.png)
 
-![Survey1](app/public/img/.png)
+![Survey1](app/public/img/Screen Shot 2019-09-24 at 8.19.03 PM.png)
 
 ![Survey2](app/public/img/survey2.png)
 
