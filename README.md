@@ -17,14 +17,14 @@ Friend Finder implements friend matching based on the user's responses to a ten 
 * JSON
 
 
-When a user clicks the app, the will land on the following *landing*  page.
+When a user clicks the app, the following *landing*  page will appear.
 
 ![Landing](app/public/img/Landing.png)
 
-Users will submit their survey answers, and when they hit submit, 
+Users will click on the slider for each question and submit their survey answers.  
 
 ![Survey2](app/public/img/survey2.png)
 
 
-  ...there mathc will appear!  
+ Then, the app will show them thier best match!  
 ![match](app/public/img/Match.png)
