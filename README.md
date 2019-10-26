@@ -28,3 +28,7 @@ Users will click on the slider for each question and submit their survey answers
 
  Then, the app will show them thier best match!  
 ![match](app/public/img/Match.png)
+
+
+### License
+Copyright 2019 Wendy Alers | UCF Coding Boot Camp
